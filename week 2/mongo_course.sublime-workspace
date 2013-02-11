@@ -1,0 +1,413 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"user",
+				"username"
+			],
+			[
+				"us",
+				"user"
+			],
+			[
+				"ite",
+				"item"
+			],
+			[
+				"s",
+				"student_id"
+			],
+			[
+				"studen",
+				"student_id"
+			],
+			[
+				"i",
+				"iterator"
+			],
+			[
+				"co",
+				"counter_value"
+			],
+			[
+				"coun",
+				"counter"
+			],
+			[
+				"cou",
+				"counters"
+			],
+			[
+				"up",
+				"upsert"
+			],
+			[
+				"d",
+				"datetime"
+			],
+			[
+				"sc",
+				"score"
+			],
+			[
+				"sort",
+				"sort_criteria"
+			],
+			[
+				"li",
+				"limit_documents"
+			],
+			[
+				"ski",
+				"skip_documents"
+			],
+			[
+				"l",
+				"limit_documents"
+			],
+			[
+				"va",
+				"value_to_match"
+			],
+			[
+				"se",
+				"search_query"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"in",
+				"inserted"
+			],
+			[
+				"re",
+				"reddit_science"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"fi",
+				"find_one"
+			],
+			[
+				"ty",
+				"type"
+			],
+			[
+				"na",
+				"names"
+			],
+			[
+				"c",
+				"connection"
+			],
+			[
+				"p",
+				"pymongo"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "hw2/user.py",
+			"settings":
+			{
+				"buffer_size": 5570,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "hw2/blog.py",
+			"settings":
+			{
+				"buffer_size": 4742,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"HTML",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"tab",
+				"View: Toggle Tabs"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"set syntax: py",
+				"Set Syntax: Python"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/fabricio/Documents/Projects/fmquaglia.mongo.playground/week 2/hw2.2.py",
+		"/Users/fabricio/Documents/Projects/fmquaglia.mongo.playground/week 2/reddit.py",
+		"/Users/fabricio/Documents/Projects/fmquaglia.mongo.playground/week 2/science.json",
+		"/Users/fabricio/Documents/Projects/fmquaglia.mongo.playground/week 2/find_adn_modify.py",
+		"/Users/fabricio/Documents/Projects/fmquaglia.mongo.playground/week 2/insert_update.py",
+		"/Users/fabricio/Documents/Projects/fmquaglia.mongo.playground/week 2/find_reddit.py",
+		"/Users/fabricio/Documents/Projects/fmquaglia.mongo.playground/week 2/seed.js",
+		"/Users/fabricio/.ssh/known_hosts",
+		"/Users/fabricio/Documents/Projects/fmquaglia.mongo.playground/week 1/bottle_test.py",
+		"/Users/fabricio/Documents/Projects/fmquaglia.mongo.playground/week 1/sinatra_test.rb",
+		"/Users/fabricio/Documents/Projects/fmquaglia.mongo.playground/week 1/things.tpl",
+		"/Users/fabricio/Documents/Projects/fmquaglia.mongo.playground/week 1/bottle_views.py",
+		"/Users/fabricio/Documents/Projects/fmquaglia.mongo.playground/week 1/get_name.py",
+		"/Users/fabricio/Documents/Projects/twiter_mongo/twitter_mongo.rb",
+		"/Users/fabricio/Documents/Projects/twiter_mongo/config/config.rb",
+		"/Users/fabricio/Documents/Projects/twiter_mongo/viewer.rb",
+		"/Users/fabricio/Documents/Projects/fmquaglia.mongo.playground/week 1/app.rb",
+		"/tmp/subl stdin bDHAGT.txt",
+		"/tmp/subl stdin FywOs4.txt",
+		"/tmp/subl stdin OeJXRm.txt",
+		"/Users/fabricio/Desktop/celsius_a_farenheit.rb",
+		"/Users/fabricio/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/fabricio/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/fabricio/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/fabricio/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/fabricio/Documents/Projects/angeles_ruby/.gitignore",
+		"/Users/fabricio/Documents/Projects/angeles_ruby/angeles_ruby.md"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"XXX",
+			"XX",
+			"title",
+			"score",
+			"scores",
+			"23",
+			"PaymentProfileAccount",
+			"PaymentLoopAccount",
+			"return",
+			"      ",
+			"=",
+			"larger"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"search_query",
+			"stories",
+			"ProfileAccount",
+			"LoopAccount"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "hw2/user.py",
+					"settings":
+					{
+						"buffer_size": 5570,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2556,
+								2556
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1208.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "hw2/blog.py",
+					"settings":
+					{
+						"buffer_size": 4742,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 130.0
+	},
+	"output.find_results":
+	{
+		"height": 130.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 221.0,
+	"status_bar_visible": true
+}

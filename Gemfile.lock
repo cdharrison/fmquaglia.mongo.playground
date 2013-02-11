@@ -1,0 +1,53 @@
+GEM
+  remote: https://rubygems.org/
+  remote: http://gems.github.com/
+  specs:
+    bson (1.8.2)
+    bson_ext (1.8.2)
+      bson (~> 1.8.2)
+    chunky_png (1.2.7)
+    compass (0.12.2)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    daemons (1.1.9)
+    eventmachine (1.0.0)
+    faraday (0.8.4)
+      multipart-post (~> 1.1)
+    fssm (0.2.9)
+    haml (3.1.7)
+    mongo (1.8.2)
+      bson (~> 1.8.2)
+    multi_json (1.5.0)
+    multipart-post (1.1.5)
+    rack (1.5.0)
+    rack-protection (1.3.2)
+      rack
+    sass (3.2.5)
+    simple_oauth (0.2.0)
+    sinatra (1.3.3)
+      rack (~> 1.3, >= 1.3.6)
+      rack-protection (~> 1.2)
+      tilt (~> 1.3, >= 1.3.3)
+    thin (1.5.0)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
+    tilt (1.3.3)
+    twitter (4.4.4)
+      faraday (~> 0.8, < 0.10)
+      multi_json (~> 1.0)
+      simple_oauth (~> 0.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bson_ext
+  compass
+  haml
+  mongo
+  sass
+  sinatra
+  thin
+  twitter
