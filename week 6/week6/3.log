@@ -1,0 +1,256 @@
+Sat Mar  2 22:01:01 [initandlisten] MongoDB starting : pid=8976 port=27019 dbpath=/data/rs3 64-bit host=MacBook.local
+Sat Mar  2 22:01:01 [initandlisten] db version v2.2.1, pdfile version 4.5
+Sat Mar  2 22:01:01 [initandlisten] git version: d6764bf8dfe0685521b8bc7b98fd1fab8cfeb5ae
+Sat Mar  2 22:01:01 [initandlisten] build info: Darwin erh-tnt.local 10.8.0 Darwin Kernel Version 10.8.0: Tue Jun  7 16:33:36 PDT 2011; root:xnu-1504.15.3~1/RELEASE_I386 i386 BOOST_LIB_VERSION=1_49
+Sat Mar  2 22:01:01 [initandlisten] options: { bind_ip: "127.0.0.1", config: "/usr/local/etc/mongod.conf", dbpath: "/data/rs3", fork: true, logappend: "true", logpath: "3.log", port: 27019, replSet: "m101", smallfiles: true }
+Sat Mar  2 22:01:01 [initandlisten] exception in initAndListen: 10309 Unable to create/open lock file: /data/rs3/mongod.lock errno:13 Permission denied Is a mongod instance already running?, terminating
+Sat Mar  2 22:01:01 dbexit: 
+Sat Mar  2 22:01:01 [initandlisten] shutdown: going to close listening sockets...
+Sat Mar  2 22:01:01 [initandlisten] shutdown: going to flush diaglog...
+Sat Mar  2 22:01:01 [initandlisten] shutdown: going to close sockets...
+Sat Mar  2 22:01:01 [initandlisten] shutdown: waiting for fs preallocator...
+Sat Mar  2 22:01:01 [initandlisten] shutdown: lock for final commit...
+Sat Mar  2 22:01:01 [initandlisten] shutdown: final commit...
+Sat Mar  2 22:01:01 [initandlisten] shutdown: closing all files...
+Sat Mar  2 22:01:01 [initandlisten] closeAllFiles() finished
+Sat Mar  2 22:01:01 [initandlisten] shutdown: removing fs lock...
+Sat Mar  2 22:01:01 [initandlisten] couldn't remove fs lock errno:9 Bad file descriptor
+Sat Mar  2 22:01:01 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Sat Mar  2 22:06:24 [initandlisten] MongoDB starting : pid=9072 port=27019 dbpath=/data/rs3 64-bit host=MacBook.local
+Sat Mar  2 22:06:24 [initandlisten] db version v2.2.1, pdfile version 4.5
+Sat Mar  2 22:06:24 [initandlisten] git version: d6764bf8dfe0685521b8bc7b98fd1fab8cfeb5ae
+Sat Mar  2 22:06:24 [initandlisten] build info: Darwin erh-tnt.local 10.8.0 Darwin Kernel Version 10.8.0: Tue Jun  7 16:33:36 PDT 2011; root:xnu-1504.15.3~1/RELEASE_I386 i386 BOOST_LIB_VERSION=1_49
+Sat Mar  2 22:06:24 [initandlisten] options: { bind_ip: "127.0.0.1", config: "/usr/local/etc/mongod.conf", dbpath: "/data/rs3", fork: true, logappend: "true", logpath: "3.log", port: 27019, replSet: "m101", smallfiles: true }
+Sat Mar  2 22:06:24 [initandlisten] journal dir=/data/rs3/journal
+Sat Mar  2 22:06:24 [initandlisten] recover : no journal files present, no recovery needed
+Sat Mar  2 22:06:24 [websvr] admin web console waiting for connections on port 28019
+Sat Mar  2 22:06:24 [initandlisten] waiting for connections on port 27019
+Sat Mar  2 22:06:24 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:06:24 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:06:24 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:06:34 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:06:34 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:06:34 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:06:44 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:06:44 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:06:44 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:06:54 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:06:54 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:06:54 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:07:04 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:07:04 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:07:04 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:07:14 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:07:14 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:07:14 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:07:24 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:07:24 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:07:24 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:07:34 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:07:34 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:07:34 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:07:44 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:07:44 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:07:44 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:07:54 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:07:54 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:07:54 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:08:04 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:08:04 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:08:04 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:08:14 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:08:14 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:08:14 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:08:24 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:08:24 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:08:24 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:08:34 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:08:34 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:08:34 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:08:44 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:08:44 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:08:44 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:08:54 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:08:54 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:08:54 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:09:04 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:09:04 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:09:04 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:09:14 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:09:14 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:09:14 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:09:24 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:09:24 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:09:24 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:09:34 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:09:34 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:09:34 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:09:44 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:09:44 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:09:44 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:09:54 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:09:54 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:09:54 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:10:04 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:10:04 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:10:04 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:10:14 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:10:14 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:10:14 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:10:24 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:10:24 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:10:24 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:10:28 [initandlisten] connection accepted from 127.0.0.1:51661 #1 (1 connection now open)
+Sat Mar  2 22:10:33 [conn1] end connection 127.0.0.1:51661 (0 connections now open)
+Sat Mar  2 22:10:34 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:10:34 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:10:34 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:10:44 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:10:44 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:10:44 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:10:54 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:10:54 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:10:54 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:11:04 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:11:04 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:11:04 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:11:14 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:11:14 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:11:14 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:11:24 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:11:24 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:11:24 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:11:34 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:11:34 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:11:34 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:11:44 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:11:44 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:11:44 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:11:54 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:11:54 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:11:54 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:12:04 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:12:04 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:12:04 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:12:14 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:12:14 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:12:14 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:12:24 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:12:24 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:12:24 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:12:34 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:12:34 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:12:34 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:12:44 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:12:44 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:12:44 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:12:54 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:12:54 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:12:54 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:13:04 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:13:04 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:13:04 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:13:14 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:13:14 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:13:14 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:13:24 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:13:24 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:13:24 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:13:34 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:13:34 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:13:34 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:13:44 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:13:44 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:13:44 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:13:54 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:13:54 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:13:54 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:14:04 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:14:04 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:14:04 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:14:14 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:14:14 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:14:14 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:14:24 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:14:24 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:14:24 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:14:34 [rsStart] trying to contact MacBook.local:27019
+Sat Mar  2 22:14:34 [rsStart] couldn't connect to MacBook.local:27019: couldn't connect to server MacBook.local:27019
+Sat Mar  2 22:14:34 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:14:44 [rsStart] trying to contact localhost.local:27019
+Sat Mar  2 22:14:44 [rsStart] couldn't connect to localhost.local:27019: couldn't connect to server localhost.local:27019
+Sat Mar  2 22:14:44 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:14:54 [rsStart] trying to contact localhost.local:27019
+Sat Mar  2 22:14:54 [rsStart] couldn't connect to localhost.local:27019: couldn't connect to server localhost.local:27019
+Sat Mar  2 22:14:54 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:15:04 [rsStart] trying to contact localhost.local:27019
+Sat Mar  2 22:15:04 [rsStart] couldn't connect to localhost.local:27019: couldn't connect to server localhost.local:27019
+Sat Mar  2 22:15:04 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:15:14 [rsStart] trying to contact localhost.local:27019
+Sat Mar  2 22:15:14 [rsStart] couldn't connect to localhost.local:27019: couldn't connect to server localhost.local:27019
+Sat Mar  2 22:15:14 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:15:24 [rsStart] trying to contact localhost.local:27019
+Sat Mar  2 22:15:24 [rsStart] couldn't connect to localhost.local:27019: couldn't connect to server localhost.local:27019
+Sat Mar  2 22:15:24 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:15:34 [rsStart] trying to contact localhost.local:27019
+Sat Mar  2 22:15:34 [rsStart] couldn't connect to localhost.local:27019: couldn't connect to server localhost.local:27019
+Sat Mar  2 22:15:34 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:15:44 [rsStart] trying to contact localhost.local:27019
+Sat Mar  2 22:15:44 [rsStart] couldn't connect to localhost.local:27019: couldn't connect to server localhost.local:27019
+Sat Mar  2 22:15:44 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:15:54 [rsStart] trying to contact localhost.local:27019
+Sat Mar  2 22:15:54 [rsStart] couldn't connect to localhost.local:27019: couldn't connect to server localhost.local:27019
+Sat Mar  2 22:15:54 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:16:04 [rsStart] trying to contact localhost.local:27019
+Sat Mar  2 22:16:04 [rsStart] couldn't connect to localhost.local:27019: couldn't connect to server localhost.local:27019
+Sat Mar  2 22:16:04 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:16:14 [rsStart] trying to contact localhost.local:27019
+Sat Mar  2 22:16:14 [rsStart] couldn't connect to localhost.local:27019: couldn't connect to server localhost.local:27019
+Sat Mar  2 22:16:14 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:16:24 [rsStart] trying to contact localhost.local:27019
+Sat Mar  2 22:16:24 [rsStart] couldn't connect to localhost.local:27019: couldn't connect to server localhost.local:27019
+Sat Mar  2 22:16:24 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:16:34 [rsStart] trying to contact localhost.local:27019
+Sat Mar  2 22:16:34 [rsStart] couldn't connect to localhost.local:27019: couldn't connect to server localhost.local:27019
+Sat Mar  2 22:16:34 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:16:44 [rsStart] trying to contact localhost.local:27019
+Sat Mar  2 22:16:44 [rsStart] couldn't connect to localhost.local:27019: couldn't connect to server localhost.local:27019
+Sat Mar  2 22:16:44 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:16:54 [rsStart] trying to contact localhost.local:27019
+Sat Mar  2 22:16:54 [rsStart] couldn't connect to localhost.local:27019: couldn't connect to server localhost.local:27019
+Sat Mar  2 22:16:54 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:17:04 [rsStart] trying to contact localhost.local:27019
+Sat Mar  2 22:17:04 [rsStart] couldn't connect to localhost.local:27019: couldn't connect to server localhost.local:27019
+Sat Mar  2 22:17:04 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:17:14 [rsStart] trying to contact localhost.local:27019
+Sat Mar  2 22:17:14 [rsStart] couldn't connect to localhost.local:27019: couldn't connect to server localhost.local:27019
+Sat Mar  2 22:17:14 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:17:24 [rsStart] trying to contact localhost.local:27019
+Sat Mar  2 22:17:24 [rsStart] couldn't connect to localhost.local:27019: couldn't connect to server localhost.local:27019
+Sat Mar  2 22:17:24 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:17:34 [rsStart] trying to contact localhost.local:27019
+Sat Mar  2 22:17:34 [rsStart] couldn't connect to localhost.local:27019: couldn't connect to server localhost.local:27019
+Sat Mar  2 22:17:34 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:17:44 [rsStart] trying to contact localhost.local:27019
+Sat Mar  2 22:17:44 [rsStart] couldn't connect to localhost.local:27019: couldn't connect to server localhost.local:27019
+Sat Mar  2 22:17:44 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:17:54 [rsStart] trying to contact localhost.local:27019
+Sat Mar  2 22:17:54 [rsStart] couldn't connect to localhost.local:27019: couldn't connect to server localhost.local:27019
+Sat Mar  2 22:17:54 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:18:04 [rsStart] trying to contact localhost.local:27019
+Sat Mar  2 22:18:04 [rsStart] couldn't connect to localhost.local:27019: couldn't connect to server localhost.local:27019
+Sat Mar  2 22:18:04 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:18:14 [rsStart] trying to contact localhost.local:27019
+Sat Mar  2 22:18:14 [rsStart] couldn't connect to localhost.local:27019: couldn't connect to server localhost.local:27019
+Sat Mar  2 22:18:14 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:18:24 [rsStart] trying to contact localhost.local:27019
+Sat Mar  2 22:18:24 [rsStart] couldn't connect to localhost.local:27019: couldn't connect to server localhost.local:27019
+Sat Mar  2 22:18:24 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+Sat Mar  2 22:18:34 [rsStart] trying to contact localhost.local:27019
+Sat Mar  2 22:18:34 [rsStart] couldn't connect to localhost.local:27019: couldn't connect to server localhost.local:27019
+Sat Mar  2 22:18:34 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
